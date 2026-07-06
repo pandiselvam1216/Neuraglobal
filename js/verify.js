@@ -77,7 +77,6 @@ document.addEventListener('DOMContentLoaded', () => {
     function showSuccess(cert) {
         document.getElementById('cert-id-display').textContent = cert.certificateId;
         document.getElementById('cert-name-display').textContent = cert.name;
-        document.getElementById('cert-reg-display').textContent = cert.regNo || '-';
         document.getElementById('cert-college-display').textContent = cert.college || '-';
         document.getElementById('cert-program-display').textContent = cert.program;
         document.getElementById('cert-domain-display').textContent = cert.domain;
